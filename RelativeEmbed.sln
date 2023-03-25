@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelativeEmbed", "RelativeEmbed\RelativeEmbed.csproj", "{0FC83172-2285-4B74-B46C-0EE09008A667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelativeExtract", "RelativeExtract\RelativeExtract.csproj", "{A38CB7B8-7E99-4055-9D0C-CBF7AD7E5329}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FC83172-2285-4B74-B46C-0EE09008A667}.Debug|x86.ActiveCfg = Debug|x86
+		{0FC83172-2285-4B74-B46C-0EE09008A667}.Debug|x86.Build.0 = Debug|x86
+		{0FC83172-2285-4B74-B46C-0EE09008A667}.Release|x86.ActiveCfg = Release|x86
+		{0FC83172-2285-4B74-B46C-0EE09008A667}.Release|x86.Build.0 = Release|x86
+		{A38CB7B8-7E99-4055-9D0C-CBF7AD7E5329}.Debug|x86.ActiveCfg = Debug|x86
+		{A38CB7B8-7E99-4055-9D0C-CBF7AD7E5329}.Debug|x86.Build.0 = Debug|x86
+		{A38CB7B8-7E99-4055-9D0C-CBF7AD7E5329}.Release|x86.ActiveCfg = Release|x86
+		{A38CB7B8-7E99-4055-9D0C-CBF7AD7E5329}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
