@@ -283,6 +283,7 @@ namespace RelativeExtract
                     Color cInput = input.GetPixel(ix, iy);
                     Color cReference = reference.GetPixel(ix, iy);
                     if (cInput.A == 0) continue; //Skip transparent pixels
+                    if (reference.GetPixel(ix, iy).A == 0) continue; //Also ignore if reference pixel is transparent, even if input isn't
                     for (int iColors = 0; iColors < 3; iColors++)
                     {
                         int bInput = (iColors == 0 ? cInput.R : (iColors == 1 ? cInput.G : cInput.B));

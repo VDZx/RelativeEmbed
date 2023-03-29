@@ -1,5 +1,7 @@
 === Not yet released ===
 - Fixed issue where --verbose was enabled even if not specified.
+- Transparent pixels in the reference image are now ignored even if not
+  transparent in the input image.
 
 === Version 1 (March 25th, 2023) ===
 - Initial release
