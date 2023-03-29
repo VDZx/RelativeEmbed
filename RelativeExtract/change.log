@@ -2,6 +2,8 @@
 - Fixed issue where --verbose was enabled even if not specified.
 - Transparent pixels in the reference image are now ignored even if not
   transparent in the input image.
+- Added --list option, which allows a file containing a newline-separated list
+  of image files to be used as input file.
 
 === Version 1 (March 25th, 2023) ===
 - Initial release
