@@ -1,0 +1,5 @@
+=== Not yet released ===
+- Fixed issue where --verbose was enabled even if not specified.
+
+=== Version 1 (March 25th, 2023) ===
+- Initial release
